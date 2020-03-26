@@ -1,10 +1,11 @@
 import Link from 'next/link';
+import Layout from '../components/layout';
 
 export default () => (
-  <div>
-    <h2>Welcome to Next.js!</h2>
+  <Layout>
+    <h1>Welcome to Next.js!</h1>
     <Link href="/about">
       <a>Go to About</a>
     </Link>
-  </div>
+  </Layout>
 );
