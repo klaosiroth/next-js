@@ -1,11 +1,3 @@
 import React from 'react';
 
-const Footer = () => {
-  return (
-    <div>
-      This is the Footer
-    </div>
-  );
-};
-
-export default Footer;
+export default ({ title = 'I`m here to stay' }) => <footer>{title}</footer>;
